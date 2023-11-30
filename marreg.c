@@ -13,11 +13,26 @@ int main()
     printf("Ingrese el numero de filas  \n");
     scanf("%d", &m);
     int matrix[n][m];
-    
+
+    printf("\n");
+    for (int i= 0; i <o; i++)
+    {
+        for(int i = 0; i < n; i++)
+        {
+            printf("\n");
+            for(int j=0; j<m ; j++)
+            {
+                matrix[i][j]=0
+                printf("%d\t", matrix[i][j])
+            }
+
+        }
+    }
 
 
 
 
 
 
+return 0;
 }
