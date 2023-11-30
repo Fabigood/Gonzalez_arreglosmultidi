@@ -27,9 +27,9 @@ int main()
             }
 
         }
+        printf("\n Matriz:" );
+        printf("\n");
     }
-
-
 
 
 
