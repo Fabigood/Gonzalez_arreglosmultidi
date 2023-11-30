@@ -4,8 +4,8 @@
 
 int main()
 {
-    
-    int o ,n, m;
+
+    int o, n, m;
     printf("Ingrese el numero de matrices \n");
     scanf("%d", &o);
     printf("Ingrese el numero de filas  \n");
@@ -15,32 +15,31 @@ int main()
     int Matrix[n][m];
 
     printf("\n");
-    for (int i= 0; i <o; i++)
+    printf("\n Matrix");
+    for (int i = 0; i < o-1; i++)
     {
-        for(int i = 0; i < n; i++)
+        for (int i = 0; i < n; i++)
         {
             printf("\n");
-            for(int j=0; j<m ; j++)
+            for (int j = 0; j < m; j++)
             {
-                Matrix[i][j]=0;
-                printf("%d\t" ,Matrix[i][j]);
+                Matrix[i][j] = 0;
+                printf("%d\t", Matrix[i][j]);
             }
-
         }
-        printf("\n Matrix:" );
+        printf("\n Matrix:");
         printf("\n");
     }
-  for (int i = 0; i < n; i++)
+    for (int i = 0; i < n; i++)
     {
         printf("\n");
         for (int j = 0; j < m; j++)
-        {            
+        {
             Matrix[i][j] = 1;
             printf("%d\t", Matrix[i][j]);
-    
-        {           
-        
-}
-}
-return 0;
-}
+
+        }
+            
+        }
+        return 0;
+    }
