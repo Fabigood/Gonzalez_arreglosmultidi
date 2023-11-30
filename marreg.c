@@ -23,7 +23,7 @@ int main()
             for(int j=0; j<m ; j++)
             {
                 Matrix[i][j]=0;
-                printf("%d\t" Matrix[i][j]);
+                printf("%d\t" ,Matrix[i][j]);
             }
 
         }
