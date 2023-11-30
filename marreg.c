@@ -12,7 +12,7 @@ int main()
     scanf("%d", &n); // se pide al usuario el tamana de la matrix
     printf("Ingrese el numero de filas  \n");
     scanf("%d", &m);
-    int matrix[n][m];
+    int Matrix[n][m];
 
     printf("\n");
     for (int i= 0; i <o; i++)
@@ -22,16 +22,24 @@ int main()
             printf("\n");
             for(int j=0; j<m ; j++)
             {
-                matrix[i][j]=0
-                printf("%d\t", matrix[i][j])
+                Matrix[i][j]=0;
+                printf("%d\t", Matrix[i][j]);
             }
 
         }
-        printf("\n Matriz:" );
+        printf("\n Matrix:" );
         printf("\n");
     }
-
-
+  for (int i = 0; i < n; i++)
+    {
+        printf("\n");
+        for (int j = 0; j < m; j++)
+        {            
+            Matrix[i][j] = 1;
+            printf("%d\t", Matrix[i][j]);
+        }
+    }
+   
 
 
 return 0;
