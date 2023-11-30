@@ -19,7 +19,7 @@ int main()
     for (int i = 0; i < o-1; i++)
     {
         for (int i = 0; i < n; i++)
-        {
+        { // numero de matrices que se van a imprimir y le n de columnas y filas se aplica el -1 para que no se imprima una extra y tener 1 menos de la funal
             printf("\n");
             for (int j = 0; j < m; j++)
             {
@@ -31,7 +31,7 @@ int main()
         printf("\n");
     }
     for (int i = 0; i < n; i++)
-    {
+    {//for creado para que la mtrix impirma solo 1
         printf("\n");
         for (int j = 0; j < m; j++)
         {
